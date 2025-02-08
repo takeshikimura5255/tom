@@ -33,7 +33,7 @@ const Home = () => {
             className="w-full xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             幅広い経験を持つWebデザイナーであり、WordPress、React、Vue、Angular、Next、Nuxt、Django、Laravel、PowerCMS、Wix、STUDIO、Bubble、Webflowを利用したWebサイト開発に強みを持っているコーダーです。
-            デザインツールとしてFigma、XD、Photoshop、illstratorをメインに使用しています。
+            デザインツールとしてFigma、XD、Photoshop、illstratorをメインに使用しています 123。
           </motion.p>
 
           {/* btn */}
