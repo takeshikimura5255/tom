@@ -38,12 +38,12 @@ const workSlides = {
       images: [
         {
           title: "躍動感あるイメージ",
-          path: "/5.jpg",
+          path: "/6.jpg",
           link: "https://www.ohtake.ac.jp", //5
         },
         {
           title: "ポップな地域カフェのイメージ",
-          path: "/6.jpg",
+          path: "/5.jpg",
           link: "https://www.kao.co.jp/essential", //6
         },
         // {
