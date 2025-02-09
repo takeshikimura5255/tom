@@ -14,23 +14,23 @@ const workSlides = {
       images: [
         {
           title: "女性らしいデザイン",
-          path: "/thumb1.jpg",
-          link: "https://bans-bd.jp/",
+          path: "/1.jpg",
+          link: "https://www.ficjp.com/", //1
         },
         {
           title: "大手らしい新しいデザイン",
-          path: "/thumb2.jpg",
-          link: "https://recruit.sas-com.com/",
+          path: "/3.jpg",
+          link: "https://misshelly.com/", //3
         },
         {
           title: "力強く男らしいイメージ",
-          path: "/thumb3.jpg",
-          link: "https://www.sanyu-butsuryu.com/",
+          path: "/2.jpg",
+          link: "https://www.mitsubishi-fuso.com/ja/", //2
         },
         {
           title: "イラスト多様しグラフィカルなイメージ",
-          path: "/thumb4.jpg",
-          link: "https://www.midorigaoka-hoiku.com/",
+          path: "/4.jpg",
+          link: "https://pro.pickyou.jp/", //4
         },
       ],
     },
@@ -38,24 +38,24 @@ const workSlides = {
       images: [
         {
           title: "躍動感あるイメージ",
-          path: "/thumb5.jpg",
-          link: "https://www.sports-science.co.jp/arrowz-gym/",
+          path: "/5.jpg",
+          link: "https://www.ohtake.ac.jp", //5
         },
         {
           title: "ポップな地域カフェのイメージ",
-          path: "/thumb6.jpg",
-          link: "https://caferob.com/",
+          path: "/6.jpg",
+          link: "https://www.kao.co.jp/essential", //6
         },
-        {
-          title: "信頼感のある地域感",
-          path: "/thumb7.jpg",
-          link: "https://www.takedc.com/",
-        },
-        {
-          title: "堅さ、信頼さ",
-          path: "/thumb8.jpg",
-          link: "https://www.marutoku-tk.co.jp/",
-        },
+        // {
+        //   title: "信頼感のある地域感",
+        //   path: "/thumb7.jpg",
+        //   link: "https://www.takedc.com/",
+        // },
+        // {
+        //   title: "堅さ、信頼さ",
+        //   path: "/thumb8.jpg",
+        //   link: "https://www.marutoku-tk.co.jp/",
+        // },
       ],
     },
   ],
@@ -81,12 +81,13 @@ const WorkSlider = () => {
               >
                 <div className="flex items-center justify-center relative overflow-hidden group">
                   {/* image */}
-                  <Image
-                    src={image.path}
-                    alt={image.title}
-                    width={500}
-                    height={300}
-                  />
+                  <div className="w-[400px] h-[200px]">
+                    <Image
+                      src={image.path}
+                      alt={image.title}
+                      fill
+                    />
+                  </div>
 
                   {/* overlay gradient */}
                   <div
@@ -106,7 +107,7 @@ const WorkSlider = () => {
                       <div className="delay-100">訪問する</div>
                       {/* title part 2 */}
                       <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
-                        
+
                       </div>
                       {/* icon */}
                       <div className="text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">

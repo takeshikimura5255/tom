@@ -52,17 +52,17 @@ import { fadeIn } from "../../variants";
 export const aboutData = [
   {
     title: "スキル",
-    info: [      
+    info: [
       {
         title: "UI/UXデザイン",
         icons: [
-                FaFigma,
-                SiAdobexd, 
-                SiAdobeillustrator, 
-                SiAdobephotoshop,
-                SiCanva,
-                
-              ],
+          FaFigma,
+          SiAdobexd,
+          SiAdobeillustrator,
+          SiAdobephotoshop,
+          SiCanva,
+
+        ],
       },
       {
         title: "ウェブ開発",
@@ -82,13 +82,13 @@ export const aboutData = [
       {
         title: "モバイルアプリ開発",
         icons: [
-                SiFlutter,
-                SiReact, 
-                SiXamarin, 
-                SiAndroidstudio,
-                SiAndroid,
-              ],
-      },      
+          SiFlutter,
+          SiReact,
+          SiXamarin,
+          SiAndroidstudio,
+          SiAndroid,
+        ],
+      },
       {
         title: "データベース",
         icons: [
@@ -160,7 +160,7 @@ const About = () => {
       <Circles />
 
       {/* avatar img */}
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
@@ -168,7 +168,7 @@ const About = () => {
         className="hidden xl:flex absolute bottom-0 w-[1000px] -right-[270px]"
       >
         <Avatar />
-      </motion.div>
+      </motion.div> */}
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-44">
         {/* text */}
@@ -188,9 +188,9 @@ const About = () => {
             animate="show"
             className="max-w-[500px] pt-[50px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10年前、私はデザイナーとしてフリーランスを始めました。
-            3年間デザイナーとして活動した後、私はコーディングとデザインを兼ねました。
-            それ以来、私は代理店で遠隔勤務を行い、スタートアップにコンサルティングし、ビジネスおよび消費者向けデジタル製品についてコラボレーションしました。
+            フルスタックWeb開発者として7年間の豊富な経験があります。
+            特に、HTML、CSS、JavaScript、React、Nextを駆使したフロントエンド開発を4年間行ってきました。
+            シンプルなページ制作からレスポンシブデザイン対応、WordPress構築、バックエンドAPIの開発まで、幅広い業務に対応可能です。
           </motion.p>
 
           {/* counters */}
@@ -204,7 +204,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={9} duration={5} />
+                  <CountUp start={0} end={7} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   積年の経験
@@ -256,10 +256,9 @@ const About = () => {
             {aboutData.map((item, itemI) => (
               <div
                 key={itemI}
-                className={`${
-                  index === itemI &&
+                className={`${index === itemI &&
                   "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
-                } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                  } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
                 onClick={() => setIndex(itemI)}
               >
                 {item.title}

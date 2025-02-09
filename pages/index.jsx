@@ -33,7 +33,7 @@ const Home = () => {
             className="w-full xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             幅広い経験を持つWebデザイナーであり、WordPress、React、Vue、Angular、Next、Nuxt、Django、Laravel、PowerCMS、Wix、STUDIO、Bubble、Webflowを利用したWebサイト開発に強みを持っているコーダーです。
-            デザインツールとしてFigma、XD、Photoshop、illstratorをメインに使用しています 123。
+            デザインツールとしてFigma、XD、Photoshop、illstratorをメインに使用しています。
           </motion.p>
 
           {/* btn */}
@@ -72,7 +72,7 @@ const Home = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
           className="w-full h-full max-w-[80%] max-h-[678px] absolute -bottom-32 lg:bottom-[-8%] lg:right-[0]"
         >
-          <Avatar />
+          {/* <Avatar /> */}
         </motion.div>
       </div>
     </div>
