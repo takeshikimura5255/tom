@@ -14,7 +14,7 @@ const workSlides = {
       images: [
         {
           title: "女性らしいデザイン",
-          path: "/fv_woman.png",
+          path: "/1.jpg",
           link: "https://www.ficjp.com/", //1
         },
         {
