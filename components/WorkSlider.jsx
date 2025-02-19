@@ -39,7 +39,7 @@ const workSlides = {
         {
           title: "躍動感あるイメージ",
           path: "/6.jpg",
-          link: "https://www.ohtake.ac.jp", //5
+          link: "https://www.ohtake.ac.jp", //    5 
         },
         {
           title: "ポップな地域カフェのイメージ",
