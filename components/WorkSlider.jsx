@@ -20,7 +20,7 @@ const workSlides = {
         {
           title: "大手らしい新しいデザイン",
           path: "/3.jpg",
-          link: "https://misshelly.com/", //3
+          link: "https://www.ya-man.com/products/lift-dryer3/", //3
         },
         {
           title: "力強く男らしいイメージ",
@@ -30,7 +30,7 @@ const workSlides = {
         {
           title: "イラスト多様しグラフィカルなイメージ",
           path: "/4.jpg",
-          link: "https://pro.pickyou.jp/", //4
+          link: "https://botanistofficial.com/special/limited/summer/", //4
         },
       ],
     },
@@ -44,7 +44,7 @@ const workSlides = {
         {
           title: "ポップな地域カフェのイメージ",
           path: "/5.jpg",
-          link: "https://www.kao.co.jp/essential", //6
+          link: "https://green-spoon.jp/release/rice-and-pasta/", //6
         },
         // {
         //   title: "信頼感のある地域感",
