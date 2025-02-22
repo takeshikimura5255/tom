@@ -35,11 +35,11 @@ export const socialData = [
   //   link: "https://pinterest.com",
   //   Icon: RiPinterestLine,
   // },
-  {
-    name: "Github",
-    link: "https://github.com/NakamuraKuhiniko",
-    Icon: RiGithubLine, 
-  },
+  // {
+  //   name: "Github",
+  //   link: "https://github.com/NakamuraKuhiniko",
+  //   Icon: RiGithubLine, 
+  // },
 ];
 
 const Socials = () => {
