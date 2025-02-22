@@ -38,7 +38,7 @@ export const socialData = [
   {
     name: "Github",
     link: "https://github.com/NakamuraKuhiniko",
-    Icon: RiGithubLine,
+    Icon: RiGithubLine, 
   },
 ];
 
